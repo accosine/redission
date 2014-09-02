@@ -1,0 +1,37 @@
+{
+  "name": "redission",
+  "version": "0.0.0",
+  "description": "Session middleware on top of redSess",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/lab/bin/lab -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/accosine/redission.git"
+  },
+  "keywords": [
+    "bare",
+    "framework",
+    "redis",
+    "session",
+    "middleware"
+  ],
+  "author": "accosine.com",
+  "contributors": [
+    "Simon Bugert <simon.bugert@gmail.com>",
+    "Duncan Kolba <duncankolba@gmail.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/accosine/redission/issues"
+  },
+  "dependencies": {
+    "redis": "^0.12.1",
+    "redsess": "^1.1.0"
+  },
+  "devDependencies": {
+    "fakeredis": "^0.2.1",
+    "lab": "^4.2.0"
+  }
+}
